@@ -1,0 +1,69 @@
+{
+  "name": "eslint-plugin-react-no-array-render",
+  "version": "0.0.1",
+  "description": "Lintly ESLint configuration.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "nodely -s ./src -o ./lib",
+    "postpublish": "codecov",
+    "prepublishOnly": "npm run build",
+    "test": "lintly app src && flow && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dogma-io/eslint-plugin-react-no-array-render.git"
+  },
+  "keywords": [
+    "array",
+    "check",
+    "code",
+    "component",
+    "eslint",
+    "inferno",
+    "javascript",
+    "js",
+    "plugin",
+    "preact",
+    "qaulity",
+    "react",
+    "render",
+    "return",
+    "rules"
+  ],
+  "author": "Matthew Dahl <https://github.com/dogma-io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogma-io/eslint-plugin-react-no-array-render/issues"
+  },
+  "homepage": "https://github.com/dogma-io/eslint-plugin-react-no-array-render#readme",
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "codecov": "3.0.0",
+    "flow-bin": "0.64.0",
+    "jest-cli": "22.1.4",
+    "lintly": "0.0.18",
+    "nodely": "0.0.25"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 94.74,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "testRegex": "/__tests__/.*-test\\.js$"
+  }
+}
