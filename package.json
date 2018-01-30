@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-react-no-array-render",
   "version": "0.0.1",
-  "description": "Lintly ESLint configuration.",
+  "description": "Prevent React components from returning an Array from their render method.",
   "main": "lib/index.js",
   "files": [
     "lib"
