@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-react-no-array-render",
+  "name": "eslint-plugin-react-compat",
   "version": "0.0.1",
-  "description": "Prevent React components from returning an Array from their render method.",
+  "description": "Make sure your React code is compatible with Inferno and Preact.",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dogma-io/eslint-plugin-react-no-array-render.git"
+    "url": "git+ssh://git@github.com/dogma-io/eslint-plugin-react-compat.git"
   },
   "keywords": [
     "array",
@@ -36,9 +36,9 @@
   "author": "Matthew Dahl <https://github.com/dogma-io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dogma-io/eslint-plugin-react-no-array-render/issues"
+    "url": "https://github.com/dogma-io/eslint-plugin-react-compat/issues"
   },
-  "homepage": "https://github.com/dogma-io/eslint-plugin-react-no-array-render#readme",
+  "homepage": "https://github.com/dogma-io/eslint-plugin-react-compat#readme",
   "devDependencies": {
     "babel-jest": "22.1.0",
     "codecov": "3.0.0",
