@@ -22,6 +22,7 @@ Add the following to your [ESLint configuration file][eslint-config-url]:
 
 ```js
 {
+  "extends": ["plugin:react-compat/recommended"],
   "plugins": ["react-compat"]
 }
 ```
