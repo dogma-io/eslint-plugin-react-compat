@@ -709,5 +709,27 @@ export default class Foo {
       parser,
       parserOptions,
     },
+    {
+      code: `
+export default () => {
+  return [<div key="bar" />, <div key="spam" />]
+}
+        `,
+      parser,
+      parserOptions,
+    },
+    {
+      code: `
+import * as React from 'react'
+function getItems() {
+  return [0, 1, 2]
+}
+export default () => {
+  return <ul>{getItems().map(item => <li>{item}</li>)}</ul>
+}
+        `,
+      parser,
+      parserOptions,
+    },
   ],
 })

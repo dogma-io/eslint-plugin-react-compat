@@ -4,6 +4,7 @@ import {
   isImportDefaultSpecifier,
   isImportNamespaceSpecifier,
   isImportSpecifier,
+  isJSXElement,
   isMemberExpression,
 } from '@babel/types'
 
@@ -118,7 +119,12 @@ export default (context: *): * => {
       ) {
         const {argument} = node
 
-        if (isArrayExpression(argument)) {
+        if (
+          isArrayExpression(argument) &&
+          argument.elements.some((element: *): boolean => {
+            return isJSXElement(element)
+          })
+        ) {
           context.report({
             message:
               "Don't return an array fron a React component's render method.",

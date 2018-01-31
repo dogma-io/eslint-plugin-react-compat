@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-compat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make sure your React code is compatible with Inferno and Preact.",
   "main": "lib/index.js",
   "files": [
@@ -58,7 +58,7 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 94.74,
+        "branches": 95,
         "functions": 100,
         "lines": 100,
         "statements": 100
