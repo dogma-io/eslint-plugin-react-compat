@@ -40,12 +40,12 @@
   },
   "homepage": "https://github.com/dogma-io/eslint-plugin-react-compat#readme",
   "devDependencies": {
-    "babel-jest": "22.1.0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "22.2.2",
     "codecov": "3.0.0",
-    "flow-bin": "0.64.0",
-    "jest-cli": "22.1.4",
-    "lintly": "0.0.18",
-    "nodely": "0.0.25"
+    "jest-cli": "22.2.2",
+    "lintly": "0.0.20",
+    "nodely": "0.0.27"
   },
   "jest": {
     "collectCoverage": true,
