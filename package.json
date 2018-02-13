@@ -44,8 +44,8 @@
     "babel-jest": "22.2.2",
     "codecov": "3.0.0",
     "jest-cli": "22.2.2",
-    "lintly": "0.0.20",
-    "nodely": "0.0.27"
+    "lintly": "0.0.21",
+    "nodely": "0.0.28"
   },
   "jest": {
     "collectCoverage": true,
