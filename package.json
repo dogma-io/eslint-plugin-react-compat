@@ -27,7 +27,7 @@
     "js",
     "plugin",
     "preact",
-    "qaulity",
+    "quality",
     "react",
     "render",
     "return",
@@ -43,8 +43,8 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "22.2.2",
     "codecov": "3.0.0",
-    "jest-cli": "22.2.2",
-    "lintly": "0.0.21",
+    "jest-cli": "22.3.0",
+    "lintly": "0.0.22",
     "nodely": "0.0.28"
   },
   "jest": {
