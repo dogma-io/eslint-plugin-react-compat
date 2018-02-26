@@ -2,6 +2,13 @@
 
 Make sure your [React][react-url] code is compatible with [Inferno][inferno-url] and [Preact][preact-url].
 
+## Table of Contents
+
+*   [Installation](#installation)
+*   [Documentation](#documentation)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 ## Installation
 
 **npm**
@@ -16,7 +23,7 @@ npm install eslint-plugin-react-compat
 yarn add eslint-plugin-react-compat
 ```
 
-## Usage
+## Documentation
 
 Add the following to your [ESLint configuration file][eslint-config-url]:
 
@@ -26,6 +33,14 @@ Add the following to your [ESLint configuration file][eslint-config-url]:
   "plugins": ["react-compat"]
 }
 ```
+
+## Contributing
+
+Please see the [contributing guide](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE.md)
 
 [cov-img]: https://img.shields.io/codecov/c/github/dogma-io/eslint-plugin-react-compat.svg "Code Coverage"
 [cov-url]: https://codecov.io/gh/dogma-io/eslint-plugin-react-compat
