@@ -45,7 +45,10 @@
     "codecov": "3.0.0",
     "jest": "22.4.3",
     "lintly": "0.1.0",
-    "nodely": "0.1.1"
+    "nodely": "0.1.2"
+  },
+  "engines": {
+    "node": ">= 6"
   },
   "jest": {
     "collectCoverage": true,
