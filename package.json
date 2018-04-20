@@ -44,8 +44,8 @@
     "babel-jest": "22.4.3",
     "codecov": "3.0.0",
     "jest": "22.4.3",
-    "lintly": "0.1.0",
-    "nodely": "0.1.2"
+    "lintly": "0.1.2",
+    "nodely": "0.1.3"
   },
   "engines": {
     "node": ">= 6"
