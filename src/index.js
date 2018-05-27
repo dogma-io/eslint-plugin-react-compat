@@ -4,7 +4,7 @@
 
 import {rule as noArrayRender} from './rules/no-array-render'
 
-export default {
+module.exports = {
   configs: {
     recommended: {
       rules: {
