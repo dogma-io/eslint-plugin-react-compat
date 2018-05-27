@@ -1,3 +1,8 @@
+# 0.1.4 (2018-05-27)
+
+*   Changed `index.js` back to ES5 to fix consumption by ESLint.
+
+
 # 0.1.3 (2018-05-27)
 
 *   Fix generate Flow types to not break consumers using Flow.
