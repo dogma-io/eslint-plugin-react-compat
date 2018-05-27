@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "nodely -s ./src -o ./lib && npm run gen-types",
-    "gen-types": "flow gen-flow-files src --ignore \".+/__tests__/.+\" --out-dir lib",
+    "gen-types": "flow gen-flow-files src --ignore \".+/__tests__/.+\" --out-dir lib && ./scripts/fix-types.js",
     "postpublish": "codecov",
     "prepublishOnly": "npm run build",
     "test": "lintly app src && flow && jest"
