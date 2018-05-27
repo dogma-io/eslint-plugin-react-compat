@@ -2,7 +2,9 @@
  * @flow
  */
 
-module.exports = {
+import {rule as noArrayRender} from './rules/no-array-render'
+
+export default {
   configs: {
     recommended: {
       rules: {
@@ -11,6 +13,6 @@ module.exports = {
     },
   },
   rules: {
-    'no-array-render': require('./rules/no-array-render').rule,
+    'no-array-render': noArrayRender,
   },
 }

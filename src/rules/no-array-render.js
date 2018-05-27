@@ -17,7 +17,8 @@ const REACT_COMPONENT_RENDER_FUNCTION_NAME = 'render'
 const REACT_MODULE_NAME = 'react'
 const REACT_PURE_COMPONENT_EXPORT_NAME = 'PureComponent'
 
-export function rule(context: *): * {
+// eslint-disable-next-line flowtype/no-weak-types
+export function rule(context: any): any {
   const classStack = []
   const functionStack = []
 
@@ -34,7 +35,8 @@ export function rule(context: *): * {
       functionStack.shift()
     },
 
-    ImportDeclaration(node: *) {
+    // eslint-disable-next-line flowtype/no-weak-types
+    ImportDeclaration(node: any) {
       const {source, specifiers} = node
 
       if (source.value === REACT_MODULE_NAME && Array.isArray(specifiers)) {
@@ -61,7 +63,8 @@ export function rule(context: *): * {
       }
     },
 
-    ClassDeclaration(node: *) {
+    // eslint-disable-next-line flowtype/no-weak-types
+    ClassDeclaration(node: any) {
       const {superClass} = node
 
       if (superClass) {
@@ -92,7 +95,8 @@ export function rule(context: *): * {
       classStack.push(false)
     },
 
-    'ClassDeclaration:exit': function(node: *) {
+    // eslint-disable-next-line flowtype/no-weak-types
+    'ClassDeclaration:exit': function(node: any) {
       classStack.shift()
     },
 
@@ -104,7 +108,8 @@ export function rule(context: *): * {
       functionStack.shift()
     },
 
-    MethodDefinition(node: *) {
+    // eslint-disable-next-line flowtype/no-weak-types
+    MethodDefinition(node: any) {
       functionStack.unshift(
         node.key.name === REACT_COMPONENT_RENDER_FUNCTION_NAME,
       )
@@ -114,7 +119,8 @@ export function rule(context: *): * {
       functionStack.shift()
     },
 
-    ReturnStatement(node: *) {
+    // eslint-disable-next-line flowtype/no-weak-types
+    ReturnStatement(node: any) {
       if (
         (classStack[0] && functionStack[0]) ||
         (reactImportedAs &&
