@@ -7,7 +7,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "nodely -s ./src -o ./lib",
+    "build": "nodely -s ./src -o ./lib && npm run gen-types",
+    "gen-types": "flow gen-flow-files src --ignore \".+/__tests__/.+\" --out-dir lib",
     "postpublish": "codecov",
     "prepublishOnly": "npm run build",
     "test": "lintly app src && flow && jest"
@@ -41,11 +42,11 @@
   "homepage": "https://github.com/dogma-io/eslint-plugin-react-compat#readme",
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "babel-jest": "22.4.4",
+    "babel-jest": "23.0.1",
     "codecov": "3.0.2",
-    "jest": "22.4.4",
+    "jest": "23.0.1",
     "lintly": "0.1.4",
-    "nodely": "0.1.6"
+    "nodely": "0.3.0"
   },
   "engines": {
     "node": ">= 6"

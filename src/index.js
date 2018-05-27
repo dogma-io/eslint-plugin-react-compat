@@ -1,3 +1,7 @@
+/**
+ * @flow
+ */
+
 module.exports = {
   configs: {
     recommended: {
@@ -7,6 +11,6 @@ module.exports = {
     },
   },
   rules: {
-    'no-array-render': require('./rules/no-array-render').default,
+    'no-array-render': require('./rules/no-array-render').rule,
   },
 }
