@@ -17,7 +17,7 @@ const REACT_COMPONENT_RENDER_FUNCTION_NAME = 'render'
 const REACT_MODULE_NAME = 'react'
 const REACT_PURE_COMPONENT_EXPORT_NAME = 'PureComponent'
 
-export default (context: *): * => {
+export function rule(context: *): * {
   const classStack = []
   const functionStack = []
 

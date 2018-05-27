@@ -1,5 +1,5 @@
 import index from '../index'
-import noArrayRender from '../rules/no-array-render'
+import {rule as noArrayRender} from '../rules/no-array-render'
 
 describe('eslint-plugin-react-compat', () => {
   it('should define expected configs', () => {

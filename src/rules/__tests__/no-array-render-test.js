@@ -1,4 +1,4 @@
-import rule from '../no-array-render'
+import {rule} from '../no-array-render'
 import {RuleTester} from 'eslint'
 
 const parser = 'babel-eslint'
