@@ -1,3 +1,7 @@
+# 0.1.3 (2018-05-27)
+
+*   Fix generate Flow types to not break consumers using Flow.
+
 # 0.1.2 (2018-05-27)
 
 *  Add flow types to `lib` directory.
