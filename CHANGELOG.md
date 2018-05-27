@@ -1,3 +1,9 @@
+# 0.1.2 (2018-05-27)
+
+*  Add flow types to `lib` directory.
+* Upgrade development dependencies to latest versions.
+
+
 # 0.1.1 (2018-04-04)
 
 *   Added `engines` to `package.json` to set minimum Node version to 6.
