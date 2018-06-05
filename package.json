@@ -43,11 +43,11 @@
   "devDependencies": {
     "babel-core": "^7.0.0-0",
     "babel-jest": "23.0.1",
-    "babel-preset-nodely": "0.0.1",
+    "babel-preset-nodely": "0.1.1",
     "codecov": "3.0.2",
-    "jest": "23.0.1",
+    "jest": "23.1.0",
     "lintly": "0.2.0",
-    "nodely": "0.5.1"
+    "nodely": "0.6.0"
   },
   "engines": {
     "node": ">= 6"
