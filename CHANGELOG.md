@@ -1,3 +1,7 @@
+# 0.1.5 (2018-06-05)
+
+*   Make sure build is ES5.
+
 # 0.1.4 (2018-05-27)
 
 *   Changed `index.js` back to ES5 to fix consumption by ESLint.
