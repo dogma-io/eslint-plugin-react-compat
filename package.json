@@ -46,7 +46,7 @@
     "babel-preset-nodely": "0.1.1",
     "codecov": "3.0.2",
     "jest": "23.1.0",
-    "lintly": "0.2.0",
+    "lintly": "0.2.1",
     "nodely": "0.6.0"
   },
   "jest": {
