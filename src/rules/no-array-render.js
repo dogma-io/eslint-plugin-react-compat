@@ -131,9 +131,11 @@ export function rule(context: any): any {
 
         if (
           isArrayExpression(argument) &&
-          argument.elements.some((element: *): boolean => {
-            return isJSXElement(element)
-          })
+          argument.elements.some(
+            (element: *): boolean => {
+              return isJSXElement(element)
+            },
+          )
         ) {
           context.report({
             message:
