@@ -42,10 +42,10 @@
   "homepage": "https://github.com/dogma-io/eslint-plugin-react-compat#readme",
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "babel-jest": "23.0.1",
+    "babel-jest": "23.4.0",
     "babel-preset-nodely": "0.2.0",
-    "codecov": "3.0.2",
-    "jest": "23.1.0",
+    "codecov": "3.0.4",
+    "jest": "23.4.1",
     "lintly": "0.2.1",
     "nodely": "0.7.0"
   },
