@@ -43,29 +43,10 @@
   "devDependencies": {
     "babel-core": "^7.0.0-0",
     "babel-jest": "23.4.2",
-    "babel-preset-nodely": "0.2.0",
+    "babel-preset-nodely": "0.3.0",
     "codecov": "3.0.4",
     "jest": "23.5.0",
     "lintly": "0.3.0",
     "nodely": "0.8.0"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageReporters": [
-      "json-summary",
-      "lcov"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 95,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    },
-    "testRegex": "/__tests__/.*-test\\.js$"
   }
 }
