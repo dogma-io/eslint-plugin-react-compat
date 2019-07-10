@@ -5,6 +5,6 @@
 *   [ ] #minor# - adding functionality in a backwards-compatible manner
 *   [ ] #major# - incompatible API change
 
-# CHANGELOG
+## CHANGELOG
 
 *   Please add a description of your change here, it will be automatically prepended to the `CHANGELOG.md` file.
