@@ -41,12 +41,12 @@
   },
   "homepage": "https://github.com/dogma-io/eslint-plugin-react-compat#readme",
   "devDependencies": {
-    "@babel/core": "7.6.4",
+    "@babel/core": "7.8.3",
     "babel-core": "^7.0.0-0",
     "babel-jest": "24.9.0",
     "babel-preset-nodely": "0.4.2",
     "codecov": "3.6.1",
-    "flow-copy-source": "^2.0.8",
+    "flow-copy-source": "2.0.9",
     "jest": "24.9.0",
     "lintly": "0.4.0",
     "nodely": "1.0.0"
