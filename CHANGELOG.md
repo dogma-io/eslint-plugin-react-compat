@@ -23,22 +23,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 *   Changelog so it'll get updated by CI.
 
-## [0.1.5] - 2018-06-05
+## [0.1.6] - 2019-07-19 ([PR 23](https://github.com/dogma-io/eslint-plugin-react-compat/pull/23))
+
+### Changed
+*   Switched from `pr-bumper` to `bumpr` for managing version and changelog.
+
+## [0.1.5] - 2018-06-05 ([PR 16](https://github.com/dogma-io/eslint-plugin-react-compat/pull/16))
 
 ### Changed
 *   Build to be ES5.
 
-## [0.1.4] - 2018-05-27
+## [0.1.4] - 2018-05-27 ([PR 14](https://github.com/dogma-io/eslint-plugin-react-compat/pull/14))
 
 ### Changed
 *   `index.js` back to ES5 to fix consumption by ESLint.
 
-## [0.1.3] - 2018-05-27
+## [0.1.3] - 2018-05-27 ([PR 12](https://github.com/dogma-io/eslint-plugin-react-compat/pull/12))
 
 ### Fixed
 *   Generated Flow types to not break consumers using Flow.
 
-## [0.1.2] - 2018-05-27
+## [0.1.2] - 2018-05-27 ([PR 11](https://github.com/dogma-io/eslint-plugin-react-compat/pull/11))
 
 ### Added
 *   Flow types to `lib` directory.
@@ -46,12 +51,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 *   Development dependencies to latest versions.
 
-## [0.1.1] - 2018-04-04
+## [0.1.1] - 2018-04-04 ([PR 5](https://github.com/dogma-io/eslint-plugin-react-compat/pull/5))
 
 ### Added
 *   `engines` to `package.json` to set minimum Node version to 6.
 
-## [0.1.0] - 2018-03-21
+## [0.1.0] - 2018-03-21 ([PR 3](https://github.com/dogma-io/eslint-plugin-react-compat/pull/3))
 
 ### Added
 *   Code of conduct.
