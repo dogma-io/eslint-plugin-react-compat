@@ -49,6 +49,6 @@
     "flow-copy-source": "2.0.9",
     "jest": "24.9.0",
     "lintly": "0.4.0",
-    "nodely": "1.0.0"
+    "nodely": "1.1.1"
   }
 }

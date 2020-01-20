@@ -13,6 +13,9 @@ module.exports = {
       enabled: true,
       file: '.bumpr-log.json'
     },
+    release: {
+      enabled: true
+    },
     timezone: {
       enabled: true,
       zone: 'America/New_York'
