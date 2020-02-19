@@ -45,7 +45,7 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "24.9.0",
     "babel-preset-nodely": "0.4.2",
-    "codecov": "3.6.1",
+    "codecov": "3.6.5",
     "flow-copy-source": "2.0.9",
     "jest": "24.9.0",
     "lintly": "0.4.0",
